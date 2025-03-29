@@ -1,0 +1,58 @@
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray1: hsl(0, 0%, 42%);
+    --Gray2: hsl(0, 0%, 7%);
+}
+
+body{
+    font-size: 16px;
+    background: var(--Yellow);
+}
+
+section{
+    background: var(--White);
+    border: 1px solid rgb(8, 8, 8);
+    box-shadow: 10px 10px rgb(8, 8, 8) ;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 35%;
+    margin-top: center;
+    padding: 1.7rem;
+    align-items: start;
+    width: 25%;
+    height: 50%;
+    flex-direction: column;
+       
+}
+
+section img{
+    
+    border-radius: 10px;
+    background-size: contain;
+
+}
+section .subtitle h3{
+    background: var(--Yellow);
+    padding: 4px 10px;
+    margin: 10px 0;
+    width: 80px;
+    border-radius: 5px;
+}
+
+section .subtitle span{
+    margin: 10px 0; 
+}
+section p{
+    font-size: 16px;
+    font-size: large;
+    margin-top: 5px;
+}
+section .avatar{
+    display: flex;
+    align-items: center;
+}
+
+section .avatar img{
+    margin-right: 10px;
+}
